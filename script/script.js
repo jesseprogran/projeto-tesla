@@ -1,8 +1,8 @@
-let  formulario = document.querySelector(".formulario")
+let formulario = document.querySelector(".formulario");
 function aparecerFormulario() {
-  formulario.computedStyleMap.left = "50%"
+  formulario.style.left = "50%";
 }
 
 function desaparecerFormulario() {
-  formulario.computedStyleMap.left = "-50%"
+  formulario.style.left = "-50%";
 }

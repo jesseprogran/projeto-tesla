@@ -7,7 +7,7 @@
 }
 
 html {
-  scroll-snap-type: mandatory;
+  scroll-snap-type: y mandatory;
 }
 
 video,
@@ -52,6 +52,10 @@ h1 {
   text-align: center;
 }
 
+.rodape {
+  text-align: center;
+}
+
 button {
   background-color: rgba(34, 34, 34, 0.8);
   color: white;
@@ -61,17 +65,16 @@ button {
   cursor: pointer;
 }
 
-.test-drive {
+.teste-drive {
   color: black;
   background-color: white;
 }
 
-.text-rodape {
+.texto-rodape {
   color: wheat;
   font-size: 12px;
   margin-top: 10px;
 }
-
 
 .formulario {
   position: fixed;
@@ -80,5 +83,5 @@ button {
   height: 100%;
   z-index: 3;
   left: -50%;
-  transition: 1.5s;  
+  transition: 1.5s;
 }
